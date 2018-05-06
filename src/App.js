@@ -54,7 +54,7 @@ const steps = [
         <MapContainer/>
       </div>
     ),
-    end: true,
+    trigger: 'prompt',
   },
   {
     id:'info',
@@ -105,6 +105,7 @@ class App extends Component {
             botAvatar= {Image}
              steps={steps}
              style= {borderStyle}
+             contentStyle={{height:'600px'}}
              footerStyle={{position:'absolute', bottom: '0', width: '100%'}}
            />
            </center>
