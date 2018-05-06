@@ -27,8 +27,8 @@ export class MapContainer extends Component {
 
   render() {
       const style = {
-        width: '100%',
-        height: '100%'
+        width: '290px',
+        height: '250px'
     }
     return (
       <Map google={this.props.google}
