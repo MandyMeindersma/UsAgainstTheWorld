@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { ThemeProvider } from 'styled-components';
 import ChatBot from 'react-simple-chatbot';
 import Image from './dot.png'
+import MapContainer from './mapContainer.js'
 
 const theme = {
   background: '#f5f8fb',
@@ -15,6 +16,10 @@ const theme = {
   userFontColor: '#4a4a4a',
 };
 
+const style = {
+    height: '100px'
+}
+
 const steps = [
   {
     id: '1',
@@ -23,16 +28,14 @@ const steps = [
   },
   {
     id: '2',
-    component:(<div> This is a example component </div>),
+    component:(
+        <MapContainer style={style}/>
+    ),
     end: true,
   }
 ];
 
 class App extends Component {
-
-  constructor(props) {
-      super(props);
-    }
 
   render() {
     return (
@@ -43,7 +46,9 @@ class App extends Component {
             botAvatar= {Image}
              steps={steps}
            />
+
            </center>
+
         </ThemeProvider>
    );
  }
