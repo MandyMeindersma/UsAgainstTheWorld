@@ -16,9 +16,12 @@ const theme = {
   userFontColor: '#4a4a4a',
 };
 
-const style = {
-    height: '100px'
+
+const divStyle = {
+  height: '250px',
+  width: '100%'
 }
+
 
 const steps = [
   {
@@ -29,7 +32,9 @@ const steps = [
   {
     id: '2',
     component:(
-        <MapContainer style={style}/>
+      <div style={divStyle} >
+        <MapContainer/>
+      </div>
     ),
     end: true,
   }
