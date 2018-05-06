@@ -91,7 +91,7 @@ const steps = [
   },
   {
     id: 'finish',
-    message: 'Take care and have a great day!',
+    message: "Alright, take care! Protip: Delete your browsing history if you are in danger",
     end: true
   }
 ];

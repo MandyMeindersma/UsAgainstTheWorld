@@ -39,47 +39,18 @@ export class MapContainer extends Component {
           }}
           onClick={this.onMapClicked}>
 
-        <Marker onClick={this.onMarkerClick}
-                name={"Women's Habitat"}
-                position={{lat: 43.6011776,
-                lng: -79.5078087}}/>
-
-      <Marker onClick={this.onMarkerClick}
-              name={"Nellie's Administration"}
-              position={{lat: 43.6593677,
-              lng: -79.3502875}} />
-
-              <Marker onClick={this.onMarkerClick}
-                      name={"Red Door Family Shelter"}
-                      position={{lat: 43.656403,
-                      lng: -79.3401427}} />
-
                       <Marker onClick={this.onMarkerClick}
-                              name={"Sistering\n Serving:45\n Capacity: 50"}
+                              name={"Sistering\n Serving: 45\n Capacity: 50"}
                               position={{lat: 43.6614163,
                               lng: -79.4309733}} />
                               <Marker onClick={this.onMarkerClick}
-                                      name={"Street Haven at The Crossroads"}
-                                      position={{lat: 43.6592425,
-                                      lng: -79.3746183}} />
+                                      name={"Fred Victor\n Serving: 56\n Capacity: 67"}
+                                      position={{lat: 43.652517,
+                                      lng: -79.373900}} />
                                       <Marker onClick={this.onMarkerClick}
-                                              name={"Covenant House Toronto"}
-                                              position={{lat: 43.6593677,
-                                              lng: -79.3502875}} />
-                                              <Marker onClick={this.onMarkerClick}
-                                                      name={"North York Women's Shelter"}
-                                                      position={{lat: 43.6593677,
-                                                      lng: -79.3502875}} />
-                                                      <Marker onClick={this.onMarkerClick}
-                                                              name={"Bethlehem United Shelter"}
-                                                              position={{lat: 43.6593677,
-                                                              lng: -79.3502875}} />
-                                                              <Marker onClick={this.onMarkerClick}
-                                                                      name={"Eva's Satellite"}
-                                                                      position={{lat: 43.6593677,
-                                                                      lng: -79.3502875}} />
-
-
+                                              name={"Better Living Center\n Serving: 106\n Capacity: 120"}
+                                              position={{lat: 43.631936,
+                                              lng: -79.420778}} />
 
 
         <InfoWindow
