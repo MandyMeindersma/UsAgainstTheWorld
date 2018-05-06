@@ -9,6 +9,10 @@ const divStyle = {
   width: '100%'
 }
 
+const borderStyle={
+  height: '700px'
+}
+
 
 const steps = [
   {
@@ -35,6 +39,8 @@ class App extends Component {
             headerTitle="App"
             botAvatar= {Image}
              steps={steps}
+             style= {borderStyle}
+             footerStyle={{position:'absolute', bottom: '0', width: '100%'}}
            />
            </center>
    );
