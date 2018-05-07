@@ -64,7 +64,8 @@ const steps = [
   },
   {
     id:'help-link',
-    component:(<a href="https://www.toronto.ca/311/knowledgebase/kb/docs/articles/311-toronto/information-and-business-development/crisis-lines-suicide-depression-telephone-support-lines-non-crisis-mental-health-services.html">
+    component:(<a href="https://www.toronto.ca/311/knowledgebase/kb/docs/articles/311-toronto/information-and-business-development/crisis-lines-suicide-depression-telephone-support-lines-non-crisis-mental-health-services.html"
+    target="blank">
   Click Me!</a>),
   trigger:'prompt'
 
@@ -76,7 +77,8 @@ const steps = [
   },
   {
     id:'legallink',
-    component:(<a href="https://www.legalaid.on.ca/en/getting/type_domesticviolence.asp">
+    component:(<a href="https://www.legalaid.on.ca/en/getting/type_domesticviolence.asp"
+    target="blank">
   Click Me!</a>),
     trigger:'legalinfo2'
   },{
@@ -101,7 +103,7 @@ class App extends Component {
     return (
          <center>
           <ChatBot
-            headerTitle="HopeBot"
+            headerTitle="Hope.chatbot"
             botAvatar= {Image}
              steps={steps}
              style= {borderStyle}

@@ -32,7 +32,7 @@ export class MapContainer extends Component {
     }
     return (
       <Map google={this.props.google}
-      style={style} zoom={14}
+      style={style} zoom={12}
       initialCenter={{
             lat: 43.6532,
             lng: -79.3832
